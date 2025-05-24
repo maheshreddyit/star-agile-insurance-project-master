@@ -14,8 +14,8 @@ spec:
         app: insureme
     spec:
       containers:
-        - name: healthcare
-          image: maheshr8050/healthcaredemoo:1
+        - name: insurance
+          image: maheshr8050/insurancedemo:1
           ports:
             - containerPort: 8082
           env:
